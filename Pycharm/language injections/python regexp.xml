@@ -1,0 +1,8 @@
+<LanguageInjectionConfiguration>
+  <injection language="PythonRegExp" injector-id="python">
+    <display-name>Python regexp</display-name>
+    <value-pattern>r['&quot;]+(.*)['&quot;]+</value-pattern>
+    <single-file value="true" />
+    <place><![CDATA[pyLiteralExpression()]]></place>
+  </injection>
+</LanguageInjectionConfiguration>
